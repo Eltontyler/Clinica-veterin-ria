@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li><br>
+                <li><a href="sobre.html">Sobre a clínica</a></li><br>
+                <li><a href="horario.html">Horário de Atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                 <img src="imagem/Banner 4.jpg" alt="Banner do site">
+            </div>
+    
+            <div class="content">
+           
+                 <h1>Formulário para contato:</h1>
+                 <form>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" name="nome">
+                        <label>E-mail:</label>
+                        <input type="email" name="email">
+                    </fieldset>
+
+                    <fieldset>
+                        <Legend>Endereço</Legend>
+                        <label for="anddress">Endereço:</label>
+                        <input type="text" name="anddress">
+                    </fieldset>
+                    
+                    <fieldset>                       
+                        <legend>Assunto:</legend>
+                        <label>Mensagem:</label><br>
+                        <textarea name="mensagem" rows="10" cols="100"></textarea><br>
+                        <button class="limpa" type="reset" >Limpa</button>
+                        <button class="enviar" type="submit" onclick="alert('Sua mensagem foi enviada')">Envia</button>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Nossa localização</legend>
+                        <iframe class="localizacao" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.1125072479595!2d-54.718909000000004!3d-2.4696559000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9288fec9d6334e1d%3A0x5ffbdf51a265305d!2sTv.%2029%2C%20111%20-%20Nova%20Rep%C3%BAblica%2C%20Santar%C3%A9m%20-%20PA%2C%2068025-846!5e0!3m2!1spt-BR!2sbr!4v1724078189361!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </fieldset>
+                 </form>
+            </div>
+
+
+    
+            <div class="footer">
+                <div class="endereco">
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> Travessa 29, Nº 111, Bairro Nova República - Santarém/PA</li>
+                        <li><i class="fa-solid fa-phone"></i> (93) 99207-0362</li>
+                        <li><i class="fa-solid fa-envelope"></i> eltonconker@gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <a href="https://instagram.com/eltontylerdk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/eltonmaciel/" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a href="https://github.com/Eltontyler" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
